@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Homefront</title>
+        <link rel="stylesheet" href="loginregister.css">
+        <link href="https://fonts.googleapis.com/css?family=Unica+One:regular" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="title"
+            <h1>Homefront</h1>
+            </div>
+            <div class="form">
+                <form action="loginregister.php" method="post" class="login-form">
+                    <input type="text" name="username" placeholder="username" required/>
+                    <input type="password" name="password" action="POST" placeholder="password" required/>
+                    <button>login</button>
+                    <hr>
+                    <p class="message">Need to <a href="#">register</a>?</p>
+                </form>
+                <form action="loginregister.php" method="post" class="register-form">
+                    <input type="text" value="username" placeholder="username" required/>
+                    <input type="password" value="password" placeholder="password" required/>
+                    <input type="email" value="email" placeholder="email" required/>
+                    <button>Create</button>
+                    <hr>
+                    <p class="message">Already Registered? <a href="#">Login</a></p>
+                </form>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script src="loginregister.js"></script>
+        <br>
+            
+        
+    </body>
+</html>
